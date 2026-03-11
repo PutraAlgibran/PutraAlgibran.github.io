@@ -11,7 +11,15 @@
 </head>
 <body class="text-slate-800 antialiased">
 
-    <?php include 'navbar.php'; ?>
+    <div id="navbar-container"></div>
+    
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            });
+    </script>
 
     <section id="home" class="min-h-screen flex items-center justify-center pt-20 px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-4xl mx-auto">
