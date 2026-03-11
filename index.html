@@ -1,358 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>Putra Algibran | My Digital Crib</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
-
-    <link href="img/favicon.ico" rel="icon">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
-
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="css/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Putra Algibran | IT & Network Engineer</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
 </head>
+<body class="text-slate-800 antialiased">
 
-<body>
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
-    </div>
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary">PUTRA ALGIBRAN.</h2>
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="" class="nav-item nav-link">About Me</a>
-                <a href="" class="nav-item nav-link">My Flex</a>
-                <a href="" class="nav-item nav-link">Edu Lore</a>
-                <a href="" class="nav-item nav-link">Hit Me Up</a>
-            </div>
-    </nav>
-    <div class="container-fluid p-0 pb-5">
-        <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/1.jpg" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(53, 53, 53, 0.7);">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 text-center">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome to My Digital Crib 🚀</h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Muh Putra Al Gibran's Personal Space</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">"Langitkan Tawakkal, Bumikan Ikhtiar. No Cap 💯"</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Explore Vibes</a>
-                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Who Am I?</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/2.png" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(53, 53, 53, .7);">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 text-center">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Flexing My Journey ✨</h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Showcasing Portofolio & Resume</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">"Berani milih, berani tanggung jawab sama konsekuensinya. That's legit."</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">See My Flex</a>
-                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">My Profile</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/3.png" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(53, 53, 53, .7);">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-lg-8 text-center">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Stay Humble, Stay Valid ✌️</h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Cek Langsung Karya Gua di Sini</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">"Stay lowkey and keep doing good stuffs to everyone."</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Check It Out</a>
-                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">About Me</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <?php include 'navbar.php'; ?>
+
+    <section id="home" class="min-h-screen flex items-center justify-center pt-20 px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-4xl mx-auto">
+            <span class="inline-block py-1 px-3 rounded-full bg-blue-50 text-blue-600 text-sm font-semibold tracking-wide mb-5">
+                👋 Welcome to my digital space
+            </span>
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight text-slate-900 mb-6 leading-tight">
+                Crafting Systems.<br> 
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-500">Connecting Networks.</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-500 mb-10 max-w-2xl mx-auto leading-relaxed">
+                Hi, I'm Putra Algibran. An IT Developer and Network Engineer focused on building robust architectures, seamless integrations, and reliable infrastructures.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#portfolio" class="bg-slate-900 text-white px-8 py-3.5 rounded-full font-medium hover:bg-slate-800 transition shadow-lg shadow-slate-200">
+                    Explore My Work
+                </a>
+                <a href="#contact" class="bg-white text-slate-700 border border-slate-200 px-8 py-3.5 rounded-full font-medium hover:bg-slate-50 transition">
+                    Let's Connect
+                </a>
             </div>
         </div>
-    </div>
-    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
-        <div class="section-title text-center">
-            <h1 class="display-5 mb-5">THE OG PROFILE</h1>
-        </div>
-        <div class="container about px-lg-0">
-            <div class="row g-0 mx-lg-0">
-                <div class="col-lg-4 ps-lg-0" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/profile.jpeg" style="object-fit: cover;" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-8 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="p-lg-5 pe-lg-0">
-                        <div class="text-start">
-                            <h2 class="mb-4">Yoo, I'm MUH PUTRA ALGIBRAN</h2>
-                        </div>
-                        <p class="mb-4 pb-2">What's good? Gua mahasiswa Sistem Informasi di Universitas Negeri Gorontalo. <i>Lowkey</i> as a <strong>public speaker</strong>, but <i>highkey</i> a <strong>web designer</strong> & OG <i>Native PHP enjoyer</i>. Kalo abis sibuk ngampus atau balik ngantor, rutinitas wajib gua ya plank sama push-up bentar biar *core* tetep aman dan *aesthetic*. ⚡</p>
-                        <div class="row g-4 mb-4 pb-2">
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
-                                        <i class="fa fa-users fa-2x text-primary"></i>
-                                    </div>
-                                    <div class="ms-3">
-                                        <h2 class="text-primary mb-1" data-toggle="counter-up">4</h2>
-                                        <p class="fw-medium mb-0">Active Circles (Orgs)</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
-                                <div class="d-flex align-items-center">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
-                                        <i class="fa fa-check fa-2x text-primary"></i>
-                                    </div>
-                                    <div class="ms-3">
-                                        <h2 class="text-primary mb-1" data-toggle="counter-up">3</h2>
-                                        <p class="fw-medium mb-0">Projects Flexed</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="" class="btn btn-primary py-3 px-5">Spill More</a>
-                    </div>
-                </div>
+    </section>
+
+    <section id="skills" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900">Tech Arsenal</h2>
+                <p class="text-slate-500 mt-4 max-w-2xl mx-auto">Tools and technologies I use to solve complex problems and build scalable solutions.</p>
             </div>
-        </div>
-    </div>
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="section-title text-center">
-                <h1 class="display-5 mb-5">MY FLEX (PORTOFOLIO)</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/portofolio-1.jpeg" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Bullying Web Campaign</h4>
-                            <p>Project *humanity* bareng Sabang Merauke buat *raise awareness* soal isu *Bullying* yang lagi *urgent* banget.</p>
-                            <a class="fw-medium" href="">Detailnya Sini <i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/portofolio-2.jpeg" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">PRO-PN Socialization</h4>
-                            <p>Kolaborasi kece bareng Duta GenRe & BKKBN Provinsi Gorontalo buat ngedukasi temen-temen SMA/SMK/MA.</p>
-                            <a class="fw-medium" href="">Detailnya Sini <i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/portofolio-3.jpeg" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Workshop PIK-R Buol 2018</h4>
-                            <p>Jadi bagian dari pergerakan positif pengelola PIK-R se-Kabupaten Buol. *Solid* parah cuy!</p>
-                            <a class="fw-medium" href="">Detailnya Sini <i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="section-title text-center">
-                <h1 class="display-5 mb-5">PHOTO DUMP 📸</h1>
-            </div>
-            <div class="row g-4 portfolio-container">
-                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/kegiatan-1.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/kegiatan-1.jpeg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">IT Camp</p>
-                            <h5 class="lh-base mb-0">Keseruan IT Camp bareng anak-anak Kelompok Studi Linux UNG. *Linux FTW!*</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/kegiatan-2.jpeg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/kegiatan-2.jpeg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">IT Camp</p>
-                            <h5 class="lh-base mb-0">Nge-<i>lead</i> as a Moderator buat materi Programming. *Nervous* dikit tapi *lit* 🔥</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="rounded overflow-hidden">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="border border-5 border-light border-top-0 p-4">
-                            <p class="text-primary fw-medium mb-2">Women Empowerment Webinar</p>
-                            <h5 class="lh-base mb-0">Webinar soal Perundungan & Kekerasan Wanita bareng PIK-M Palebohu. *Spread positivity!*</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-xxl py-5">
-        <section class="page-section" id="pendidikan">
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-3">ACADEMIC LORE 🎓</h2>
             
-            <table class="table table-hover mt-4">
-                <thead class="table-dark">
-                  <tr>
-                    <th scope="col">LEVEL</th>
-                    <th scope="col">ALMA MATER</th>
-                    <th scope="col">IN</th>
-                    <th scope="col">OUT</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">Sekolah Dasar</th>
-                    <td>MIN BUOL</td>
-                    <td>2008</td>
-                    <td>2013</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Sekolah Menengah Pertama</th>
-                    <td>MTS Negeri 1 Buol</td>
-                    <td>2013</td>
-                    <td>2016</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Sekolah Menengah Atas</th>
-                    <td >SMA Negeri 1 Biau</td>
-                    <td>2016</td>
-                    <td>2019</td>
-                  </tr>
-                  <tr class="table-primary">
-                      <th scope="row">Perguruan Tinggi</th>
-                      <td>Universitas Negeri Gorontalo</td>
-                      <td>2019</td>
-                      <td><i>Grinding (On Going)</i></td>
-                  </tr>
-                </tbody>
-              </table>
-        </section>
-    </div>
-    <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Basecamp</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Desa Moutong, Bone Bolango, Gorontalo</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+0822 1459 XXXX</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>putraalgibran08@gmail.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href="https://twitter.com/PutraAlGibran2?t=hdANkMH_QN62OM0o192GCA&s=08"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="https://instagram.com/putra_algibran?utm_medium=copy_link"><i class="icon-instagram"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/watch?v=rgDDWhQe-ow&t=553s"><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <div class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition duration-300">
+                    <div class="w-14 h-14 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center mb-6 text-2xl font-bold">🐘</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">PHP & SQL</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Developing solid backend architectures and writing optimized database queries for data-heavy applications.</p>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">What I Do</h4>
-                    <a class="btn btn-link" href="">Web Design</a>
-                    <a class="btn btn-link" href="">Public Speaking</a>
+
+                <div class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition duration-300">
+                    <div class="w-14 h-14 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center mb-6 text-2xl font-bold">🔗</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">System Integration</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Bridging the gap between isolated systems, ensuring APIs and legacy platforms communicate seamlessly.</p>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="">About Me</a>
-                    <a class="btn btn-link" href="">Hit Me Up</a>
-                    <a class="btn btn-link" href="">My Flex</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+
+                <div class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition duration-300">
+                    <div class="w-14 h-14 bg-purple-100 text-purple-600 rounded-2xl flex items-center justify-center mb-6 text-2xl font-bold">🤖</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">AI Automation</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Leveraging artificial intelligence to automate repetitive workflows and enhance operational efficiency.</p>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Keep In Touch</h4>
-                    <p>Drop email lu di sini biar kita bisa mutualan.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Let's Go!</button>
-                    </div>
+
+                <div class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:-translate-y-1 hover:shadow-xl transition duration-300">
+                    <div class="w-14 h-14 bg-orange-100 text-orange-600 rounded-2xl flex items-center justify-center mb-6 text-2xl font-bold">🌐</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Network Engineer</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Designing, configuring, and maintaining secure, high-performance network infrastructures.</p>
                 </div>
+
             </div>
         </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">PutraAlgibran</a>, All Right Reserved.
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        Designed with ☕ By <a class="border-bottom" href="https://htmlcodex.com">Putra Algibran</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </section>
 
+    <footer class="bg-slate-900 border-t border-slate-800 py-10 text-center">
+        <p class="text-slate-400 font-medium">&copy; 2026 Putra Algibran. Built with Code & Logic.</p>
+    </footer>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-
-    <script src="js/main.js"></script>
 </body>
-
 </html>
